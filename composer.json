@@ -1,0 +1,6 @@
+{
+    "require": {
+        "illuminate/database": "^8.67",
+        "psr/simple-cache": "^1.0"
+    }
+}
