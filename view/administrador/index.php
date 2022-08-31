@@ -80,7 +80,7 @@ $rutaDos = count($data) <= 2 ? $rutaDos = "" : $rutaDos = $data[2];
 				<!-- Opción Bandeja -->
 				<!-- <div class="iocn-link"> -->
 				<a href="./?/bandeja">
-					<i class='bx bxs-book-reader'></i>
+					<i class='bx bxs-receipt'></i>
 					<span class="link_name">Bandeja</span>
 				</a>
 				<!-- <i class='bx bxs-chevron-down arrow'></i>
