@@ -46,11 +46,14 @@ class controllerBandeja
 		if ($_SESSION['perfil'] == 2) {
 			/* Sentencia para mostrar tablas */
 			$lista = productos::join('categoria', 'categoria.id_categoria', '=', 'productos.id_categoria')
+				->join(
+					'sucursal', 'sucursal.id_sucursal', '=', 'productos.id_sucursal'
+				)
 				->select(
 					'productos.id_producto',
 					'productos.nombre',
 					'categoria.categoria',
-					'productos.id_sucursal'
+					'sucursal.sucursal'
 				)
 				->get();
 			require_once '../../view/administrador/bandeja/indexProductos.php';
@@ -121,7 +124,12 @@ class controllerBandeja
 			if (empty($_POST)) {
 				header("Location:./?/bandeja");
 			}
-			$obj = productos::find($_POST["id_producto"]);
+			$obj = productos::join('categoria', 'categoria.id_categoria', '=', 'productos.id_categoria'
+			)
+			->join(
+				'sucursal', 'sucursal.id_sucursal', '=', 'productos.id_sucursal'
+			)
+			->find($_POST["id_producto"]);
 			require "../../view/administrador/bandeja/editProducto.php";
 		} else {
 			?>
