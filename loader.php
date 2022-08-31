@@ -4,7 +4,6 @@
 require_once  "vendor/autoload.php";
 
 /*Importar las entidades*/
-require_once  "model/persistence/entities/bandeja.php";
 require_once  "model/persistence/entities/productos.php";
 require_once  "model/persistence/entities/usuario.php";
 
