@@ -82,12 +82,12 @@ $rutaDos = count($data) <= 2 ? $rutaDos = "" : $rutaDos = $data[2];
 				<!-- <div class="iocn-link"> -->
 				<a href="./?/productos">
 					<i class='bx bxs-book-reader'></i>
-					<span class="link_name">Registro de productos</span>
+					<span class="link_name">Productos</span>
 				</a>
 				<!-- <i class='bx bxs-chevron-down arrow'></i>
 				</div> -->
 				<ul class="sub-menu blank">
-					<li><a class="link_name" href="./?/productos">Registro de productos</a></li>
+					<li><a class="link_name" href="./?/productos">Productos</a></li>
 					<!-- <li><a href="./?/#/#">#</a></li> -->
 					<!-- <li><a href="./?/#/#">#</a></li> -->
 				</ul>
@@ -131,8 +131,8 @@ $rutaDos = count($data) <= 2 ? $rutaDos = "" : $rutaDos = $data[2];
 					//Si se agrega otra sección, agregar otro texto
 					if ($ruta == '') {
 					?> <span class="text">¡Bienvenid@, <?php echo '' . $_SESSION['nombre']; ?>!</span>
-					<?php } else if ($ruta == 'registro') {
-					?> <span class="text">Registro de productos</span>
+					<?php } else if ($ruta == 'productos') {
+					?> <span class="text">Productos</span>
 					<?php } ?>
 				</span>
 			</div>
