@@ -80,14 +80,14 @@ $rutaDos = count($data) <= 2 ? $rutaDos = "" : $rutaDos = $data[2];
 			<li>
 				<!-- Opción Registro -->
 				<!-- <div class="iocn-link"> -->
-				<a href="./?/registro">
+				<a href="./?/productos">
 					<i class='bx bxs-book-reader'></i>
 					<span class="link_name">Registro de productos</span>
 				</a>
 				<!-- <i class='bx bxs-chevron-down arrow'></i>
 				</div> -->
 				<ul class="sub-menu blank">
-					<li><a class="link_name" href="./?/registro">Registro de productos</a></li>
+					<li><a class="link_name" href="./?/productos">Registro de productos</a></li>
 					<!-- <li><a href="./?/#/#">#</a></li> -->
 					<!-- <li><a href="./?/#/#">#</a></li> -->
 				</ul>
