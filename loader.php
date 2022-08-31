@@ -5,9 +5,13 @@ require_once  "vendor/autoload.php";
 
 /*Importar las entidades*/
 require_once  "model/persistence/entities/usuario.php";
+require_once  "model/persistence/entities/bandeja.php";
+require_once  "model/persistence/entities/productos.php";
+
 
 /* Importamos  los controladores*/
-require_once  "controller/controllerUsers.php";
+require_once  "controller/controllerBandeja.php";
+require_once  "controller/controllerRegistro.php";
 require_once  "controller/controllerManuals.php";
 
 /* Especificamos el nombre de espacio al que pertenece la clase Manager*/
