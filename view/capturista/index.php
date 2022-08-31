@@ -99,7 +99,7 @@ $rutaDos = count($data) <= 2 ? $rutaDos = "" : $rutaDos = $data[2];
 			<div class="container">
 				<div class="row">
 					<div class="col-3 g-0">
-						<img src="../resources/img/profile/Tecnico.png" alt="profileImg">
+						<img src="../resources/img/profile/User.png" alt="profileImg">
 					</div>
 					<div class="col-7 g-0">
 						<div class="name-job">
