@@ -9,7 +9,7 @@ capturista_session();
 <div class="sales-boxes">
     <div class="recent-sales box">
         <div class="sales-details">
-            <div class="form-add" id="form_users">
+            <div class="form-add" id="form_productos">
                 <form method="post" action="./?/productos/save">
                     <div class="row g-4">
                         <div class="col-sm-6">
