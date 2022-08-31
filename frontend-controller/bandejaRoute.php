@@ -8,7 +8,6 @@ switch ($subruta){
 	case "edit": controllerBandeja::getInstancia()->edit(); break;
 	case "delete": controllerBandeja::getInstancia()->delete(); break;
 	case "save": controllerBandeja::getInstancia()->save(); break;
-	case "newUser": controllerBandeja::getInstancia()->newUser(); break;
 	default: controllerBandeja::getInstancia()->index(); break;
 }
 
