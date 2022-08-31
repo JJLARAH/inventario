@@ -81,7 +81,7 @@ $rutaDos = count($data) <= 2 ? $rutaDos = "" : $rutaDos = $data[2];
 				<!-- Opción Registro -->
 				<!-- <div class="iocn-link"> -->
 				<a href="./?/productos">
-					<i class='bx bxs-book-reader'></i>
+					<i class='bx bxs-package'></i>
 					<span class="link_name">Productos</span>
 				</a>
 				<!-- <i class='bx bxs-chevron-down arrow'></i>
