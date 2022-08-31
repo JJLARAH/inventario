@@ -25,7 +25,7 @@ administrador_session();
 							<label>Categoría</label>
 							<div id="id_categoria">
 								<select name="id_categoria" id="id_categoria" class="form-control form-select" required>
-									<option value="<?= $obj->id_categoria ?>" selected><?= $obj->id_categoria ?></option>
+									<option value="<?= $obj->id_categoria ?>" selected><?= $obj->categoria ?></option>
 									<option value="1">Electrónica</option>
 									<option value="2">Línea Blanca</option>
 									<option value="3">Deportes</option>
@@ -38,7 +38,7 @@ administrador_session();
 							<label>Sucursal</label>
 							<div id="id_sucursal">
 								<select name="id_sucursal" id="id_sucursal" class="form-control form-select" required>
-									<option value="<?= $obj->id_sucursal ?>" selected><?= $obj->id_sucursal ?></option>
+									<option value="<?= $obj->id_sucursal ?>" selected><?= $obj->sucursal ?></option>
 									<option value="1">Cuernavaca</option>
 									<option value="2">Yautepec</option>
 									<option value="3">Cuautla</option>
