@@ -18,6 +18,8 @@ class productos extends Model{
 		"id_sucursal",
 		"precio",
         "fecha_compra",
+		"estado",
+		"comentarios",
         "fecha_registro"
 	];
 
