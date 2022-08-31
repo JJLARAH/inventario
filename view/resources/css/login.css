@@ -1,0 +1,135 @@
+/*ESTILO DE FUENTES*/
+@font-face {
+	font-family: 'Orbitron';
+	src: url('../fonts/Orbitron/Orbitron-VariableFont_wght.ttf');
+    font-weight: 100 1000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.4s ease;
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+  align-content: center;
+  place-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: whitesmoke;
+}
+
+.wrapper{
+  width: 380px;
+  background: linear-gradient(-180deg, rgb(0, 55, 133), rgb(8, 63, 141));
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px 10px rgba(0, 55, 133, 0.7);
+}
+
+.wrapper .logo{
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.wrapper .logo .loginLogo, .wrapper .logo{
+  width: auto;
+  max-height: 132px;
+  position: relative;
+}
+
+.wrapper .title{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  color: whitesmoke;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  transition: 0.3s ease;
+  transition-delay: 0.1s;
+  letter-spacing: 7px;
+}
+
+.wrapper .sub_title{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #00a1f0;
+  user-select: none;
+  transition: 0.3s ease;
+  transition-delay: 0.1s;
+  letter-spacing: 4px;
+}
+
+.wrapper form{
+  padding: 0px 30px 10px 30px;
+}
+
+.wrapper form .field{
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.wrapper form .field input{
+  height: 70%;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  padding-left: 15px;
+  border: 2px solid rgb(82, 80, 80);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.wrapper form .field input:focus,
+form .field input:valid{
+  border-color: #00a1f0;
+}
+
+form .field input:focus ~ label,
+form .field input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: black;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+form .field input[type="submit"]{
+  color: whitesmoke;
+  border: none;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  background: linear-gradient(-60deg, #666666, rgb(14, 13, 13));
+  transition: all 0.3s ease;
+}
+
+form .field input[type="submit"]:active{
+  transform: scale(0.95);
+}
+
+form .field input[type="submit"]:hover{
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 300;
+  background: linear-gradient(60deg, #666666, rgb(14, 13, 13));
+  transition: all 0.3s ease;
+}
+
+form .pass-link a:hover,
+form .signup-link a:hover{  
+  text-decoration: underline;
+}
