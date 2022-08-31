@@ -14,8 +14,8 @@ class productos extends Model{
 	protected $fillable =[
 		"nombre",
 		"descripcion",
-		"categoria",
-		"sucursal",
+		"id_categoria",
+		"id_sucursal",
 		"precio",
         "fecha_compra",
         "fecha_registro"

@@ -13,8 +13,8 @@ class bandeja extends Model{
 
 	protected $fillable =[
 		"nombre",
-		"categoria",
-		"sucursal",
+		"id_categoria",
+		"id_sucursal",
 		"estado",
 		"comentarios",
         "fecha_registro"
