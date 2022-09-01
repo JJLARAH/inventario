@@ -33,13 +33,13 @@
             <div class="field">
                 <input type="submit" value="Ingresar" name="Login">
             </div>
+            <div class="signup-link">
+                <p>
+                    ¿No tienes cuenta? <a href="./view/registroUsuarios/registroUsuarios.php">REGISTRATE AQUÍ</a>
+                </p>
+                <br>
+            </div>
         </form>
-        <div align="center" style="color:whitesmoke; opacity: 1; font-size:small;">
-            <p>
-                ¿No tienes cuenta? <a href="">Registrate aquí</a>
-            </p>
-            <br>
-        </div>
     </div>
 </body>
 </html>
