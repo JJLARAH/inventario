@@ -60,6 +60,21 @@ html,body{
   letter-spacing: 7px;
 }
 
+.wrapper .title-register{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  color: whitesmoke;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  transition: 0.3s ease;
+  transition-delay: 0.1s;
+  letter-spacing: 7px;
+}
+
 .wrapper .sub_title{
   font-size: 18px;
   font-weight: 400;
